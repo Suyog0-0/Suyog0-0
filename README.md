@@ -150,18 +150,23 @@ Production-ready UI designs for 10+ projects including Noon redesign, SodhKhoj, 
 ---
 
 <!-- ============================================================
-     GITHUB STATS — streak + activity graph
+     GITHUB STATS — animated RPG card + streak + activity graph
      ============================================================ -->
 
 ## GitHub Stats
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=Suyog0-0&theme=radical&hide_border=true)](https://git.io/streak-stats)
+<!-- Custom animated stat card — commit stats.svg to your repo root -->
+![Developer Stats](./stats.svg)
 
 <br/>
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Suyog0-0&theme=redical&hide_border=true&area=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![GitHub Streak](https://streak-stats.demolab.com?user=Suyog0-0&theme=radical&hide_border=true&border_radius=12)](https://git.io/streak-stats)
+
+<br/>
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Suyog0-0&theme=redical&hide_border=true&area=true&radius=8)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 </div>
 
