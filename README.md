@@ -1,3 +1,6 @@
+<!-- ============================================================
+     HEADER — animated wave + typing SVG
+     ============================================================ -->
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Suyog%20Sigdel&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Full%20Stack%20Developer%20%7C%20UI%2FUX%20Designer%20%7C%20Computing%20Student&descAlignY=55&descSize=16" width="100%"/>
@@ -11,6 +14,10 @@
 </div>
 
 ---
+
+<!-- ============================================================
+     ABOUT ME — intro with floating GIF
+     ============================================================ -->
 
 <br/>
 
@@ -34,50 +41,56 @@ I'm a **Full Stack Developer** and **Computing student** at Islington College, N
 
 ---
 
+<!-- ============================================================
+     TECH STACK — clean icon grid via skillicons.dev
+     ============================================================ -->
+
 ## Tech Stack
 
-<div align="center">
-
-![frontend](https://img.shields.io/badge/-Frontend-6E57F7?style=for-the-badge&logoColor=white)
-
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
-![backend](https://img.shields.io/badge/-Backend-00C9A7?style=for-the-badge&logoColor=white)
-
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_API-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-
-![mobile](https://img.shields.io/badge/-Mobile%20%26%20Languages-F7931E?style=for-the-badge&logoColor=white)
-
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-
-![design](https://img.shields.io/badge/-Design%20%26%20Tools-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
-
-![cloud](https://img.shields.io/badge/-Cloud%20%26%20AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-
-![AWS](https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-
-</div>
+<table>
+  <tr>
+    <td><strong>Frontend</strong></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=react,nextjs,js,ts,tailwind,html,css" />
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Backend</strong></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb" />
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Mobile</strong></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=flutter,dart" />
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Languages</strong></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=js,ts,java,python,dart" />
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Design & Tools</strong></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=figma,git,github,vscode,vercel,postman" />
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Cloud</strong></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=aws" />
+    </td>
+  </tr>
+</table>
 
 ---
+
+<!-- ============================================================
+     FEATURED PROJECTS — 2x2 card grid
+     ============================================================ -->
 
 ## Featured Projects
 
@@ -136,22 +149,27 @@ Production-ready UI designs for 10+ projects including Noon redesign, SodhKhoj, 
 
 ---
 
+<!-- ============================================================
+     GITHUB STATS — streak + activity graph
+     ============================================================ -->
+
 ## GitHub Stats
 
 <div align="center">
 
-<br/>
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Suyog0-0&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Suyog0-0&layout=compact&theme=radical&hide_border=true&langs_count=8" />
-
-<br/>
-
 [![GitHub Streak](https://streak-stats.demolab.com?user=Suyog0-0&theme=radical&hide_border=true)](https://git.io/streak-stats)
+
+<br/>
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Suyog0-0&theme=redical&hide_border=true&area=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 </div>
 
 ---
+
+<!-- ============================================================
+     EXPERIENCE — card matching projects style
+     ============================================================ -->
 
 ## Experience
 
@@ -178,6 +196,10 @@ Production-ready UI designs for 10+ projects including Noon redesign, SodhKhoj, 
 
 ---
 
+<!-- ============================================================
+     CONNECT — social links
+     ============================================================ -->
+
 ## Connect With Me
 
 <div align="center">
@@ -190,10 +212,14 @@ Production-ready UI designs for 10+ projects including Noon redesign, SodhKhoj, 
 
 ---
 
+<!-- ============================================================
+     FOOTER — animated wave
+     ============================================================ -->
+
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
 
-*Stay Curious*
+*"Stay Curious"*
 
 </div>
