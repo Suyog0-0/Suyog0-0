@@ -157,9 +157,6 @@ Production-ready UI designs for 10+ projects including Noon redesign, SodhKhoj, 
 
 <div align="center">
 
-<!-- Custom animated stat card — commit stats.svg to your repo root -->
-![Developer Stats](./stats.svg)
-
 <br/>
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=Suyog0-0&theme=radical&hide_border=true&border_radius=12)](https://git.io/streak-stats)
