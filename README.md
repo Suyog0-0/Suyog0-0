@@ -20,15 +20,15 @@
 
 I'm a **Full Stack Developer** and **Computing student** at Islington College, Nepal — passionate about turning Figma designs into fast, pixel-perfect web experiences.
 
-![intern](https://img.shields.io/badge/Intern-Leaflet%20Digital%20Solutions-0A66C2?style=flat-square&logo=briefcase&logoColor=white) Currently interning as a **Full Stack Developer**
+![intern](https://img.shields.io/badge/Intern-Leaflet%20Digital%20Solutions-1a1a2e?style=flat-square&logo=briefcase&logoColor=white) Currently interning as a **Full Stack Developer**
 
-![degree](https://img.shields.io/badge/Degree-BSc%20(Hons)%20Computing-6E57F7?style=flat-square&logo=googlescholar&logoColor=white) Cloud, Networking, Web Dev & more
+![degree](https://img.shields.io/badge/Degree-BSc%20(Hons)%20Computing-1a1a2e?style=flat-square&logo=googlescholar&logoColor=white) Cloud, Networking, Web Dev & more
 
-![superpower](https://img.shields.io/badge/Superpower-Design%20%E2%86%92%20Production%20UI-00C9A7?style=flat-square&logo=figma&logoColor=white) I go from mockup to prod faster than most
+![superpower](https://img.shields.io/badge/Superpower-Design%20%E2%86%92%20Production%20UI-1a1a2e?style=flat-square&logo=figma&logoColor=white) I go from mockup to prod faster than most
 
-![learning](https://img.shields.io/badge/Learning-TypeScript%20%7C%20AWS%20%7C%20Flutter-F7931E?style=flat-square&logo=amazonaws&logoColor=white) Always expanding the stack
+![learning](https://img.shields.io/badge/Learning-TypeScript%20%7C%20AWS%20%7C%20Flutter-1a1a2e?style=flat-square&logo=amazonaws&logoColor=white) Always expanding the stack
 
-![location](https://img.shields.io/badge/Location-Kathmandu%2C%20Nepal-E74C3C?style=flat-square&logo=googlemaps&logoColor=white) Based in Nepal
+![location](https://img.shields.io/badge/Location-Kathmandu%2C%20Nepal-1a1a2e?style=flat-square&logo=googlemaps&logoColor=white) Based in Nepal
 
 <br clear="right"/>
 
@@ -37,8 +37,6 @@ I'm a **Full Stack Developer** and **Computing student** at Islington College, N
 ## Tech Stack
 
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=3&animation=twinkling" width="100%"/>
 
 ![frontend](https://img.shields.io/badge/-Frontend-6E57F7?style=for-the-badge&logoColor=white)
 
@@ -82,12 +80,6 @@ I'm a **Full Stack Developer** and **Computing student** at Islington College, N
 ---
 
 ## Featured Projects
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=3&animation=twinkling" width="100%"/>
-
-</div>
 
 <div align="center">
 <table>
@@ -148,8 +140,6 @@ Production-ready UI designs for 10+ projects including Noon redesign, SodhKhoj, 
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=3&animation=twinkling" width="100%"/>
-
 <br/>
 
 <img height="170" src="https://github-readme-stats.vercel.app/api?username=Suyog0-0&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true" />
@@ -165,16 +155,26 @@ Production-ready UI designs for 10+ projects including Noon redesign, SodhKhoj, 
 
 ## Experience
 
-```
-  Full Stack Developer Intern — Leaflet Digital Solutions
-  March 2025 – October 2025 · 8 Months
+<div align="center">
+<table>
+<tr>
+<td width="100%" valign="top">
 
-  > Built 6+ responsive pages with React/Next.js (SSR, SSG, lazy loading)
-    — improved page load time by ~30%
-  > Converted Figma prototypes into production-ready, reusable components
-  > Implemented API integration for auth and product modules via Express.js
-  > Delivered consistently within sprint deadlines
-```
+![leaflet](https://img.shields.io/badge/-Full%20Stack%20Developer%20Intern%20%E2%80%94%20Leaflet%20Digital%20Solutions-1a1a2e?style=for-the-badge&logo=briefcase&logoColor=white)
+
+![duration](https://img.shields.io/badge/March%202025%20–%20October%202025-8%20Months-6E57F7?style=flat-square&logoColor=white)
+
+**React / Next.js · Express.js · Figma → Code · Agile Sprints**
+
+- Built 6+ responsive pages using SSR, SSG, and lazy loading — improved page load time by ~30%
+- Converted Figma prototypes into production-ready, reusable component libraries
+- Implemented API integration for authentication and product modules via Express.js
+- Delivered consistently within weekly sprint deadlines
+
+</td>
+</tr>
+</table>
+</div>
 
 ---
 
@@ -194,6 +194,6 @@ Production-ready UI designs for 10+ projects including Noon redesign, SodhKhoj, 
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
 
-*"Stay Curious"*
+*Stay Curious*
 
 </div>
