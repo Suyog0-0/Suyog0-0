@@ -27,8 +27,6 @@
 
 I'm a **Full Stack Developer** and **Computing student** at Islington College, Nepal — passionate about turning Figma designs into fast, pixel-perfect web experiences.
 
-![intern](https://img.shields.io/badge/Intern-Leaflet%20Digital%20Solutions-1a1a2e?style=flat-square&logo=briefcase&logoColor=white) Currently interning as a **Full Stack Developer**
-
 ![degree](https://img.shields.io/badge/Degree-BSc%20(Hons)%20Computing-1a1a2e?style=flat-square&logo=googlescholar&logoColor=white) Cloud, Networking, Web Dev & more
 
 ![superpower](https://img.shields.io/badge/Superpower-Design%20%E2%86%92%20Production%20UI-1a1a2e?style=flat-square&logo=figma&logoColor=white) I go from mockup to prod faster than most
