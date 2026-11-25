@@ -3,7 +3,7 @@
      ============================================================ -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Suyog%20Sigdel&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Full%20Stack%20Developer%20%7C%20UI%2FUX%20Designer%20%7C%20Computing%20Student&descAlignY=55&descSize=16" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Suyog%20Sigdel&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Full%20Stack%20Developer%20%7C%20UI%2FUX%20Designer%20%7C%20Computing%20Graduate&descAlignY=55&descSize=16" width="100%"/>
 
 </div>
 
@@ -16,7 +16,7 @@
 ---
 
 <!-- ============================================================
-     ABOUT ME — intro with floating GIF
+     ABOUT ME
      ============================================================ -->
 
 <br/>
@@ -25,13 +25,13 @@
 
 ![greeting](https://img.shields.io/badge/-Hey%20there%2C%20I'm%20Suyog!-6E57F7?style=for-the-badge&logoColor=white)
 
-I'm a **Full Stack Developer** and **Computing student** at Islington College, Nepal — passionate about turning Figma designs into fast, pixel-perfect web experiences.
+I'm a **Full Stack Developer** and **Computing student** at Islington College, Nepal, passionate about turning Figma designs into fast, pixel-perfect web experiences.
 
-![degree](https://img.shields.io/badge/Degree-BSc%20(Hons)%20Computing-1a1a2e?style=flat-square&logo=googlescholar&logoColor=white) Cloud, Networking, Web Dev & more
+![degree](https://img.shields.io/badge/Degree-BSc%20(Hons)%20Computing%20·%20First%20Class-1a1a2e?style=flat-square&logo=googlescholar&logoColor=white) Cloud, Networking, Web Dev & more
 
 ![superpower](https://img.shields.io/badge/Superpower-Design%20%E2%86%92%20Production%20UI-1a1a2e?style=flat-square&logo=figma&logoColor=white) I go from mockup to prod faster than most
 
-![learning](https://img.shields.io/badge/Learning-TypeScript%20%7C%20AWS%20%7C%20Flutter-1a1a2e?style=flat-square&logo=amazonaws&logoColor=white) Always expanding the stack
+![learning](https://img.shields.io/badge/Learning-AWS%20%7C%20Docker%20%7C%20Flutter-1a1a2e?style=flat-square&logo=amazonaws&logoColor=white) Always expanding the stack
 
 ![location](https://img.shields.io/badge/Location-Kathmandu%2C%20Nepal-1a1a2e?style=flat-square&logo=googlemaps&logoColor=white) Based in Nepal
 
@@ -40,7 +40,7 @@ I'm a **Full Stack Developer** and **Computing student** at Islington College, N
 ---
 
 <!-- ============================================================
-     TECH STACK — clean icon grid via skillicons.dev
+     TECH STACK
      ============================================================ -->
 
 ## Tech Stack
@@ -55,7 +55,7 @@ I'm a **Full Stack Developer** and **Computing student** at Islington College, N
   <tr>
     <td><strong>Backend</strong></td>
     <td>
-      <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb" />
+      <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,supabase,postgres" />
     </td>
   </tr>
   <tr>
@@ -73,13 +73,13 @@ I'm a **Full Stack Developer** and **Computing student** at Islington College, N
   <tr>
     <td><strong>Design & Tools</strong></td>
     <td>
-      <img src="https://skillicons.dev/icons?i=figma,git,github,vscode,vercel,postman" />
+      <img src="https://skillicons.dev/icons?i=figma,git,github,vscode,postman,notion" />
     </td>
   </tr>
   <tr>
-    <td><strong>Cloud</strong></td>
+    <td><strong>DevOps & Cloud</strong></td>
     <td>
-      <img src="https://skillicons.dev/icons?i=aws" />
+      <img src="https://skillicons.dev/icons?i=docker,githubactions,vercel,aws" />
     </td>
   </tr>
 </table>
@@ -87,7 +87,36 @@ I'm a **Full Stack Developer** and **Computing student** at Islington College, N
 ---
 
 <!-- ============================================================
-     FEATURED PROJECTS — 2x2 card grid
+     ACHIEVEMENTS
+     ============================================================ -->
+
+## Achievements
+
+<div align="center">
+<table>
+<tr>
+<td width="100%" valign="top">
+
+![hackathon](https://img.shields.io/badge/-Winner%20%E2%80%94%20Islington%20Hackathon%202026-1a1a2e?style=for-the-badge&logo=trophy&logoColor=FFD700)
+
+![date](https://img.shields.io/badge/September%202026-1st%20among%2038%20teams-6E57F7?style=flat-square&logoColor=white)
+
+**Next.js · Supabase · Team Lead**
+
+Led the team behind **Caffeinated Chaos**, an R&D Digital Hub for Islington College, and won among 38 participating teams. Organized by Islington College with the Islington WebDev Community and Islington Inosphere.
+
+[![Live Site](https://img.shields.io/badge/Live_Site-6E57F7?style=flat-square&logo=vercel&logoColor=white)](https://caffeinated-chaos.vercel.app/)
+[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Suyog0-0/Caffeinated-Chaos)
+
+</td>
+</tr>
+</table>
+</div>
+
+---
+
+<!-- ============================================================
+     FEATURED PROJECTS — 2-column card grid
      ============================================================ -->
 
 ## Featured Projects
@@ -97,13 +126,39 @@ I'm a **Full Stack Developer** and **Computing student** at Islington College, N
 <tr>
 <td width="50%" valign="top">
 
+![caffeinated](https://img.shields.io/badge/-Caffeinated%20Chaos-000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+
+**Next.js · Supabase · Hackathon Winner**
+
+R&D Digital Hub for Islington College, built as the winning entry of the Islington Hackathon 2026 with a team I led.
+
+[![Live Site](https://img.shields.io/badge/Live_Site-6E57F7?style=flat-square&logo=vercel&logoColor=white)](https://caffeinated-chaos.vercel.app/)
+[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Suyog0-0/Caffeinated-Chaos)
+
+</td>
+<td width="50%" valign="top">
+
+![finlaya](https://img.shields.io/badge/-FinLaya%20%E2%80%94%20Final%20Year%20Project-000?style=for-the-badge&logo=supabase&logoColor=3ECF8E)
+
+**Next.js · Express.js · Supabase**
+
+Personal finance platform with automated salary allocation, EMI/loan tracking, savings goals, budget alerts via cron jobs, and an analytics dashboard with downloadable PDF reports.
+
+[![Live Site](https://img.shields.io/badge/Live_Site-6E57F7?style=flat-square&logo=vercel&logoColor=white)](https://finlaya.vercel.app/)
+[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Suyog0-0/FinLaya)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 ![store](https://img.shields.io/badge/-De%20Aastha%20Store-000?style=for-the-badge&logo=shopify&logoColor=white)
 
 **Next.js · Figma · REST APIs**
 
-Production-level departmental store e-commerce platform built mobile-first. Designed the full UI in Figma, then converted to optimized Next.js pages. Features multi-section navigation (food, beverages, essentials) with API-driven product and category management.
+Production-level departmental store e-commerce platform built mobile-first. Designed the full UI in Figma, then converted it to optimized Next.js pages. Features multi-section navigation (food, beverages, essentials) with API-driven product and category management.
 
-[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Suyog0-0)
+[![Live Site](https://img.shields.io/badge/Live_Site-6E57F7?style=flat-square&logo=vercel&logoColor=white)](https://astha-department-frontend-five.vercel.app/)
 
 </td>
 <td width="50%" valign="top">
@@ -112,9 +167,9 @@ Production-level departmental store e-commerce platform built mobile-first. Desi
 
 **Next.js · i18n · Admin Dashboard**
 
-Full-stack personal portfolio with a complete admin panel. Features bilingual support (i18n), dynamic content management, and a profile editing dashboard — all built with Next.js SSR/SSG.
+Full-stack personal portfolio with a complete admin panel. Features bilingual support (i18n), dynamic content management, and a profile editing dashboard, all built with Next.js SSR/SSG.
 
-[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Suyog0-0)
+[![Live Site](https://img.shields.io/badge/Live_Site-6E57F7?style=flat-square&logo=vercel&logoColor=white)](https://political-portfolio-five.vercel.app/)
 
 </td>
 </tr>
@@ -125,9 +180,9 @@ Full-stack personal portfolio with a complete admin panel. Features bilingual su
 
 **Flutter · State Management · Animations**
 
-Interactive chess game with draggable pieces, legal move validation, and smooth UI animations. Built for SIEP showcase using Flutter's widget system and clean state management.
+Interactive chess game with draggable pieces, legal move validation, and smooth UI animations. Built for the SIEP showcase using Flutter's widget system and clean state management.
 
-[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Suyog0-0)
+[![GitHub](https://img.shields.io/badge/GitHub_Profile-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Suyog0-0)
 
 </td>
 <td width="50%" valign="top">
@@ -136,9 +191,9 @@ Interactive chess game with draggable pieces, legal move validation, and smooth 
 
 **Figma · Prototyping · Wireframing**
 
-Production-ready UI designs for 10+ projects including Noon redesign, SodhKhoj, DajuVai, TobaccoWorld, HAMS Hospital, Pahadi Puff, and more — all in Figma.
+Production-ready UI designs for 10+ projects including DajuVai, Noon redesign, SodhKhoj, Tobacco World, HAMS Hospital, Pahadi Puff, and more, all in Figma.
 
-[![Figma](https://img.shields.io/badge/View_Designs-F24E1E?style=flat-square&logo=figma&logoColor=white)](https://github.com/Suyog0-0)
+[![Figma](https://img.shields.io/badge/View_DajuVai_Prototype-F24E1E?style=flat-square&logo=figma&logoColor=white)](https://www.figma.com/proto/H1sZ74o0mh58b4eSC5iUac/DajuVai-Ecom?node-id=1-3&t=o50OlUrQUaAxgrXe-1)
 
 </td>
 </tr>
@@ -148,7 +203,7 @@ Production-ready UI designs for 10+ projects including Noon redesign, SodhKhoj, 
 ---
 
 <!-- ============================================================
-     GITHUB STATS — animated RPG card + streak + activity graph
+     GITHUB STATS
      ============================================================ -->
 
 ## GitHub Stats
@@ -168,7 +223,7 @@ Production-ready UI designs for 10+ projects including Noon redesign, SodhKhoj, 
 ---
 
 <!-- ============================================================
-     EXPERIENCE — card matching projects style
+     EXPERIENCE
      ============================================================ -->
 
 ## Experience
@@ -184,8 +239,8 @@ Production-ready UI designs for 10+ projects including Noon redesign, SodhKhoj, 
 
 **React / Next.js · Express.js · Figma → Code · Agile Sprints**
 
-- Built 6+ responsive pages using SSR, SSG, and lazy loading — improved page load time by ~30%
-- Converted Figma prototypes into production-ready, reusable component libraries
+- Built 6+ responsive pages using SSR, SSG, and lazy loading, improving page load time by ~30%
+- Converted 6 Figma prototypes into production-ready UI with reusable components, reducing duplicate code across pages
 - Implemented API integration for authentication and product modules via Express.js
 - Delivered consistently within weekly sprint deadlines
 
@@ -197,7 +252,34 @@ Production-ready UI designs for 10+ projects including Noon redesign, SodhKhoj, 
 ---
 
 <!-- ============================================================
-     CONNECT — social links
+     CERTIFICATIONS — shield cards (SVGs live in assets/certs/)
+     Each card links to its credential / verification page.
+     ============================================================ -->
+
+## Certifications
+
+### Amazon Web Services
+
+<p>
+  <a href="https://www.credly.com/badges/8b199ae6-5d7e-42f4-b5cc-c442f6f8807e/linked_in_profile"><img src="assets/certs/aws-cloud-foundations.svg" width="150" alt="AWS Academy Cloud Foundations"/></a>
+  <a href="https://www.credly.com/badges/d2e7e6f5-7cfd-4e40-8a01-1790fc0a01c2/linked_in_profile"><img src="assets/certs/aws-data-engineering.svg" width="150" alt="AWS Academy Data Engineering"/></a>
+  <a href="https://www.credly.com/badges/c400697c-40fb-4af9-989b-25524077f570/linked_in_profile"><img src="assets/certs/aws-ml-foundations.svg" width="150" alt="AWS Academy Machine Learning Foundations"/></a>
+  <a href="https://www.credly.com/badges/4c40bace-06f4-4954-ace2-7b0cbdd8169d/linked_in_profile"><img src="assets/certs/aws-ml-nlp.svg" width="150" alt="AWS Academy Machine Learning for Natural Language Processing"/></a>
+  <a href="https://www.credly.com/badges/a41288ec-0504-4fce-841d-c3a3fb9a86fa/linked_in_profile"><img src="assets/certs/aws-cloud-quest.svg" width="150" alt="AWS Cloud Quest: Cloud Practitioner"/></a>
+</p>
+
+### Other
+
+<p>
+  <a href="https://www.linkedin.com/in/suyog-sigdel-66346232a/"><img src="assets/certs/leapfrog-fullstack.svg" width="150" alt="Leapfrog Connect Fullstack Training Certificate"/></a>
+  <a href="https://certificate.islingtoncollege.edu.np/certificate/verify/ICKCP4A230135C9BZ8"><img src="assets/certs/flutter-dart.svg" width="150" alt="Cross-platform Mobile Apps with Flutter and Dart"/></a>
+  <a href="https://certificate.islingtoncollege.edu.np/certificate/verify/ICKCP4A230135T4GDV"><img src="assets/certs/dsa.svg" width="150" alt="Data Structures and Algorithms"/></a>
+</p>
+
+---
+
+<!-- ============================================================
+     CONNECT
      ============================================================ -->
 
 ## Connect With Me
@@ -213,7 +295,7 @@ Production-ready UI designs for 10+ projects including Noon redesign, SodhKhoj, 
 ---
 
 <!-- ============================================================
-     FOOTER — animated wave
+     FOOTER
      ============================================================ -->
 
 <div align="center">
