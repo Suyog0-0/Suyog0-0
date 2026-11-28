@@ -1,5 +1,6 @@
 """glasskit: tiny design system for the README graphics (Apple-style glass on aurora)."""
 import html
+from icons_ph import PH
 
 SANS = "-apple-system,BlinkMacSystemFont,'SF Pro Display','SF Pro Text','Inter','Segoe UI',system-ui,'Helvetica Neue',Arial,sans-serif"
 MONO = "'SF Mono','JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
@@ -7,11 +8,11 @@ MONO = "'SF Mono','JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,mo
 PAL = {
  'dark': dict(text='#F5F5F7', muted='#A1A1A6', faint='#6E6E73', acc='#0A84FF', acc2='#5E5CE6', acc3='#FF375F', teal='#64D2FF',
               ok='#30D158', warn='#FF9F0A', base='#07080C', base2='#10131B', b1='#0A84FF', b2='#5E5CE6', b3='#64D2FF',
-              gA=.06, hl=.075, sHi=.40, sMid=.11, sLo=.05, ln='#FFFFFF', lno=.10, sh='#000000', shop=.38, sheen=.16, outline=0,
+              bo=.82, gA=.06, hl=.075, sHi=.40, sMid=.11, sLo=.05, ln='#FFFFFF', lno=.10, sh='#000000', shop=.38, sheen=.16, outline=0,
               card='#171A23', card2='#1D212C', border='#2B3040', dim='#2C3140', chip='#1F2330', white='#FFFFFF'),
  'light': dict(text='#1D1D1F', muted='#515154', faint='#86868B', acc='#0071E3', acc2='#5E5CE6', acc3='#E8265A', teal='#2593C9',
                ok='#1E9B47', warn='#C77700', base='#E9EFFF', base2='#F5EFFF', b1='#79B1FF', b2='#B9A9FF', b3='#9BDFFF',
-               gA=.55, hl=.75, sHi=1.0, sMid=.6, sLo=.4, ln='#0B1B3A', lno=.10, sh='#5B6B9A', shop=.20, sheen=.7, outline=.07,
+               bo=.9, gA=.55, hl=.75, sHi=1.0, sMid=.6, sLo=.4, ln='#0B1B3A', lno=.10, sh='#5B6B9A', shop=.20, sheen=.7, outline=.07,
                card='#FFFFFF', card2='#F3F5FA', border='#D9DFEC', dim='#DDE3F0', chip='#EDF1F9', white='#FFFFFF'),
 }
 
@@ -77,7 +78,7 @@ def page(wi, hi, P, body, blobs=None, pad=20, r=28, defs=''):
         bl += ('<circle cx="%s" cy="%s" r="%s" fill="%s" opacity="%s" filter="url(#bl60)">'
                '<animate attributeName="cx" values="%s;%s;%s" keyTimes="0;.5;1" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1" dur="%ss" repeatCount="indefinite"/>'
                '<animate attributeName="cy" values="%s;%s;%s" keyTimes="0;.5;1" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1" dur="%ss" repeatCount="indefinite"/></circle>'
-               ) % (cx, cy, rad, P.get(c, c), op, cx, cx + dx, cx, dur, cy, cy + dy, cy, dur + 3)
+               ) % (cx, cy, rad, P.get(c, c), round(op * P.get('bo', 1), 3), cx, cx + dx, cx, dur, cy, cy + dy, cy, dur + 3)
     out = ('<clipPath id="slab"><rect width="%d" height="%d" rx="%d"/></clipPath><g clip-path="url(#slab)"><rect width="%d" height="%d" fill="url(#bgs)"/>%s'
            '<rect width="%d" height="%d" filter="url(#gr)"/></g><rect x=".5" y=".5" width="%d" height="%d" rx="%d" stroke="%s" stroke-opacity=".14"/>'
            '<g transform="translate(%d %d)">%s</g>') % (W, H, r, W, H, bl, W, H, W - 1, H - 1, r, P['ln'], pad, pad, body)
@@ -136,13 +137,24 @@ GLYPHS = {
  'award': '<circle cx="12" cy="9" r="5.5"/><path d="M8.5 13.5L7 21l5-2.5 5 2.5-1.5-7.5"/>',
  'package': '<path d="M12 3l8 4v10l-8 4-8-4V7zM4 7l8 4 8-4M12 11v10"/>',
 }
+GLYPH_MAP = {'api': 'arrows-left-right', 'shield': 'shield-check', 'gauge': 'gauge', 'responsive': 'devices', 'server': 'hard-drives', 'state': 'graph',
+ 'sparkle': 'sparkle', 'agile': 'arrows-clockwise', 'key': 'key', 'db': 'database', 'cap': 'graduation-cap', 'flame': 'flame', 'trophy': 'trophy',
+ 'bars': 'chart-bar', 'heart': 'heart', 'users': 'users-three', 'globe': 'globe-hemisphere-east', 'code': 'code', 'bolt': 'lightning', 'layers': 'stack',
+ 'cube': 'cube', 'plane': 'airplane-tilt', 'dumbbell': 'barbell', 'palette': 'palette', 'waves': 'waves', 'camera': 'camera', 'paddle': 'ping-pong',
+ 'mic': 'microphone-stage', 'pin': 'map-pin', 'check': 'check-circle', 'arrow': 'arrow-up-right', 'clock': 'clock', 'award': 'certificate',
+ 'package': 'package', 'briefcase': 'briefcase', 'rocket': 'rocket-launch', 'medal': 'medal', 'star': 'star', 'seal': 'seal-check'}
+
 def glyph(name, x, y, size, color, sw=1.8):
-    return ('<svg x="%s" y="%s" width="%s" height="%s" viewBox="0 0 24 24" fill="none" stroke="%s" stroke-width="%s" stroke-linecap="round" stroke-linejoin="round">%s</svg>'
-            % (x, y, size, size, color, sw, GLYPHS[name]))
+    inner = PH[GLYPH_MAP.get(name, name)].replace('opacity="0.2"', 'opacity="0.4"')
+    return '<svg x="%s" y="%s" width="%s" height="%s" viewBox="0 0 256 256" fill="%s">%s</svg>' % (x, y, size, size, color, inner)
 
 def squircle_icon(x, y, size, name, color, P, delay=0):
-    n = uid()
-    g = ('<rect x="%s" y="%s" width="%s" height="%s" rx="%s" fill="%s" fill-opacity=".14"/><rect x="%s" y="%s" width="%s" height="%s" rx="%s" stroke="%s" stroke-opacity=".38"/>'
-         % (x, y, size, size, size * .3, color, x + .5, y + .5, size - 1, size - 1, size * .3, color))
-    g += glyph(name, x + size * .24, y + size * .24, size * .52, color)
+    """Frosted glass tile with a tinted duotone glyph. Only gold (earned) and muted colors are kept; everything else uses the accent."""
+    n = uid(); c = color if color in (P['warn'], P['faint']) else P['acc']; r = size * .3
+    light = P['gA'] > .3
+    g = '<clipPath id="tl%d"><rect x="%s" y="%s" width="%s" height="%s" rx="%s"/></clipPath>' % (n, x, y, size, size, r)
+    g += '<rect x="%s" y="%s" width="%s" height="%s" rx="%s" fill="#fff" fill-opacity="%s"/>' % (x, y, size, size, r, .85 if light else .07)
+    g += '<g clip-path="url(#tl%d)"><circle cx="%s" cy="%s" r="%s" fill="%s" fill-opacity="%s"/><rect x="%s" y="%s" width="%s" height="%s" fill="url(#hl)"/></g>' % (n, x + size * .3, y + size * .15, size * .75, c, .16 if light else .26, x, y, size, size)
+    g += '<rect x="%s" y="%s" width="%s" height="%s" rx="%s" stroke="%s" stroke-opacity="%s"/>' % (x + .5, y + .5, size - 1, size - 1, r, c, .45 if light else .5)
+    g += glyph(name, x + size * .21, y + size * .21, size * .58, c)
     return g
