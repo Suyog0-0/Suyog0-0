@@ -6,11 +6,11 @@ SANS = "-apple-system,BlinkMacSystemFont,'SF Pro Display','SF Pro Text','Inter',
 MONO = "'SF Mono','JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
 
 PAL = {
- 'dark': dict(text='#F5F5F7', muted='#A1A1A6', faint='#6E6E73', acc='#0A84FF', acc2='#5E5CE6', acc3='#FF375F', teal='#64D2FF',
+ 'dark': dict(text='#F5F5F7', muted='#A1A1A6', faint='#6E6E73', acc='#3D9BFF', accg='#7DBBFF', btn='#0A84FF', acc2='#5E5CE6', acc3='#FF375F', teal='#64D2FF',
               ok='#30D158', warn='#FF9F0A', base='#07080C', base2='#10131B', b1='#0A84FF', b2='#5E5CE6', b3='#64D2FF',
               bo=.82, gA=.06, hl=.075, sHi=.40, sMid=.11, sLo=.05, ln='#FFFFFF', lno=.10, sh='#000000', shop=.38, sheen=.16, outline=0,
               card='#171A23', card2='#1D212C', border='#2B3040', dim='#2C3140', chip='#1F2330', white='#FFFFFF'),
- 'light': dict(text='#1D1D1F', muted='#515154', faint='#86868B', acc='#0071E3', acc2='#5E5CE6', acc3='#E8265A', teal='#2593C9',
+ 'light': dict(text='#1D1D1F', muted='#515154', faint='#86868B', acc='#0071E3', accg='#0071E3', btn='#0071E3', acc2='#5E5CE6', acc3='#E8265A', teal='#2593C9',
                ok='#1E9B47', warn='#C77700', base='#E9EFFF', base2='#F5EFFF', b1='#79B1FF', b2='#B9A9FF', b3='#9BDFFF',
                bo=.9, gA=.55, hl=.75, sHi=1.0, sMid=.6, sLo=.4, ln='#0B1B3A', lno=.10, sh='#5B6B9A', shop=.20, sheen=.7, outline=.07,
                card='#FFFFFF', card2='#F3F5FA', border='#D9DFEC', dim='#DDE3F0', chip='#EDF1F9', white='#FFFFFF'),
@@ -42,6 +42,7 @@ def common_defs(P):
      '<linearGradient id="bgs" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="%s"/><stop offset="1" stop-color="%s"/></linearGradient>'
      '<filter id="bl60" x="-60%%" y="-60%%" width="220%%" height="220%%"><feGaussianBlur stdDeviation="60"/></filter>'
      '<filter id="bl30" x="-60%%" y="-60%%" width="220%%" height="220%%"><feGaussianBlur stdDeviation="30"/></filter>'
+     '<filter id="glo" x="-300%%" y="-300%%" width="700%%" height="700%%"><feGaussianBlur stdDeviation="6"/></filter>'
      '<filter id="bl14" x="-30%%" y="-40%%" width="160%%" height="190%%"><feGaussianBlur stdDeviation="14"/></filter>'
      '<filter id="gr" x="0" y="0" width="100%%" height="100%%"><feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".07"/></feComponentTransfer></filter>'
     ) % (P['sHi'], P['sMid'], P['sLo'], P['acc'], P['acc2'], P['hl'], P['sheen'], P['base'], P['base2'])
@@ -142,19 +143,19 @@ GLYPH_MAP = {'api': 'arrows-left-right', 'shield': 'shield-check', 'gauge': 'gau
  'bars': 'chart-bar', 'heart': 'heart', 'users': 'users-three', 'globe': 'globe-hemisphere-east', 'code': 'code', 'bolt': 'lightning', 'layers': 'stack',
  'cube': 'cube', 'plane': 'airplane-tilt', 'dumbbell': 'barbell', 'palette': 'palette', 'waves': 'waves', 'camera': 'camera', 'paddle': 'ping-pong',
  'mic': 'microphone-stage', 'pin': 'map-pin', 'check': 'check-circle', 'arrow': 'arrow-up-right', 'clock': 'clock', 'award': 'certificate',
- 'package': 'package', 'briefcase': 'briefcase', 'rocket': 'rocket-launch', 'medal': 'medal', 'star': 'star', 'seal': 'seal-check'}
+ 'package': 'package', 'briefcase': 'briefcase', 'rocket': 'rocket-launch', 'medal': 'medal', 'star': 'star', 'seal': 'seal-check', 'send': 'paper-plane-tilt', 'coffee': 'coffee', 'terminal': 'terminal-window', 'branch': 'git-branch', 'merge': 'git-merge'}
 
 def glyph(name, x, y, size, color, sw=1.8):
     inner = PH[GLYPH_MAP.get(name, name)].replace('opacity="0.2"', 'opacity="0.4"')
     return '<svg x="%s" y="%s" width="%s" height="%s" viewBox="0 0 256 256" fill="%s">%s</svg>' % (x, y, size, size, color, inner)
 
 def squircle_icon(x, y, size, name, color, P, delay=0):
-    """Frosted glass tile with a tinted duotone glyph. Only gold (earned) and muted colors are kept; everything else uses the accent."""
-    n = uid(); c = color if color in (P['warn'], P['faint']) else P['acc']; r = size * .3
-    light = P['gA'] > .3
+    """Frosted glass tile with a duotone glyph. Accent glyphs use the brighter glyph blue so they stay readable on dark; gold is kept for earned items."""
+    n = uid(); r = size * .3; light = P['gA'] > .3
+    c = P['warn'] if color == P['warn'] else (P['accg'] if color == P['acc'] else P['muted'])
     g = '<clipPath id="tl%d"><rect x="%s" y="%s" width="%s" height="%s" rx="%s"/></clipPath>' % (n, x, y, size, size, r)
-    g += '<rect x="%s" y="%s" width="%s" height="%s" rx="%s" fill="#fff" fill-opacity="%s"/>' % (x, y, size, size, r, .85 if light else .07)
-    g += '<g clip-path="url(#tl%d)"><circle cx="%s" cy="%s" r="%s" fill="%s" fill-opacity="%s"/><rect x="%s" y="%s" width="%s" height="%s" fill="url(#hl)"/></g>' % (n, x + size * .3, y + size * .15, size * .75, c, .16 if light else .26, x, y, size, size)
-    g += '<rect x="%s" y="%s" width="%s" height="%s" rx="%s" stroke="%s" stroke-opacity="%s"/>' % (x + .5, y + .5, size - 1, size - 1, r, c, .45 if light else .5)
+    g += '<rect x="%s" y="%s" width="%s" height="%s" rx="%s" fill="#fff" fill-opacity="%s"/>' % (x, y, size, size, r, .85 if light else .10)
+    g += '<g clip-path="url(#tl%d)"><circle cx="%s" cy="%s" r="%s" fill="%s" fill-opacity="%s"/><rect x="%s" y="%s" width="%s" height="%s" fill="url(#hl)"/></g>' % (n, x + size * .3, y + size * .15, size * .8, c, .16 if light else .36, x, y, size, size)
+    g += '<rect x="%s" y="%s" width="%s" height="%s" rx="%s" stroke="%s" stroke-opacity="%s"/>' % (x + .5, y + .5, size - 1, size - 1, r, c, .5 if light else .7)
     g += glyph(name, x + size * .21, y + size * .21, size * .58, c)
     return g
